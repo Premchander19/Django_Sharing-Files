@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" href="{% static 'style/download.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <img class="main_img" src="{% static 'images/weshare.png' %}"/>
+    <div class="button">
+        <button onclick="button()" class="btn btn-lg btn-info download">Download All</button>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>FileName</th>
+            </tr>
+        </thead>
+    {% for downla in downl %}
+    <tbody>
+      <tr>
+          <td><a href="/media/{{ downla.file }}" download="/media/{{ downla.file }}">{{ downla.text }}</a></td>
+      </tr>
+    </tbody>
+    {% endfor %}
+    </table>
+</div>
+    <script>
+        function button() {
+            var a = document.getElementsByTagName("a");
+            var i;
+            for (i = 0; i < a.length; i++) {
+              a[i].click();
+            }
+        }
+    </script>
+</body>
+</html>

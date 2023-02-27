@@ -1,0 +1,32 @@
+img.main_img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height: 150px;
+    margin-bottom:20px;
+}
+input[type=file]{
+        padding: 9px 9px 13px 9px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 100px;
+}
+div.file{
+    text-align: right;
+}
+
+@media only screen and (max-width: 576px) {
+    div.file{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    div.upload{
+        text-align: center;
+    }
+    h2{
+        padding-bottom: 40px;
+    }
+
+
+}

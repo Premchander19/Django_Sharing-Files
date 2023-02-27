@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'style/upload.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <img class="main_img" src="{% static 'images/weshare.png' %}"/>
+    <h2>
+        Your UserName:
+        {% if user.is_authenticated %}
+        {{ username }}
+        {% endif %}
+    </h2>
+    <form method="post"  enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-sm-6 file">
+                <input type="file" name="file" multiple required>
+            </div>
+            <div class="col-sm-6 upload">
+                <button type="submit" class="btn btn-lgs btn-success">Upload</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

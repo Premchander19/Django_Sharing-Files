@@ -1,0 +1,26 @@
+img.main_img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height: 150px;
+    margin-bottom:50px;
+}
+div.button{
+    text-align: center;
+}
+thead{
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+@media only screen and (max-width: 576px) {
+button.download{
+    font-size: medium;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+}

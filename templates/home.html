@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style/main/home.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <img class="main_img" src="{% static 'images/weshare.png' %}"/>
+        <p>Sharing Files Through Internet</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <button class="btn btn-primary btn-lg" onclick="window.location.href='send'" type="button">
+                    <a class="center" href="send">Send</a>
+                </button>
+            </div>
+            <div class="col-sm-6">
+                <button class="btn btn-primary btn-lg" onclick="window.location.href='receive'" type="button">
+                    <a class="center" href="receive">Receive</a>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="footer">---Developed By PremC</div>
+</body>
+</html>

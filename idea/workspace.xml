@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f109ca2b-4f81-4dd4-ae46-cd3aff51de72" name="Default Changelist" comment="commit" />
+    <list id="45ddf377-c3aa-4cbf-a948-f2aa4e148814" name="New changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Anish0612/share_files" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="14ec401f-30af-41d5-b328-6d578840d00c" />
+  <component name="ProjectId" id="1krpwNfztdHF14BaX7eCouFkwlw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\django\sharing_files\static\style" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myproject\django\sharing_files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.home.html">
+    <configuration name="download.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/views.py/templates/download.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/views.py/templates/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sharing_files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/send" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sharing_files" type="Python.DjangoServer" factoryName="Django server">
+      <module name="sharing_files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="sharing_files.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="JavaScript Debug.download.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\anish\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f109ca2b-4f81-4dd4-ae46-cd3aff51de72" name="Default Changelist" comment="" />
+      <changelist id="45ddf377-c3aa-4cbf-a948-f2aa4e148814" name="New changelist" comment="" />
+      <created>1606468801494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606468801494</updated>
+      <workItem from="1606468802561" duration="2935000" />
+      <workItem from="1606471814600" duration="2501000" />
+      <workItem from="1606505851337" duration="593000" />
+      <workItem from="1606566809063" duration="864000" />
+      <workItem from="1606569174416" duration="1807000" />
+      <workItem from="1606572559318" duration="46000" />
+      <workItem from="1606572642121" duration="162000" />
+      <workItem from="1606662955362" duration="3762000" />
+      <workItem from="1606667102108" duration="2284000" />
+      <workItem from="1606675891825" duration="1056000" />
+      <workItem from="1606756903282" duration="5215000" />
+      <workItem from="1606835053200" duration="1661000" />
+      <workItem from="1606837338182" duration="7985000" />
+      <workItem from="1606918476918" duration="3132000" />
+      <workItem from="1606922182226" duration="5499000" />
+      <workItem from="1606961172460" duration="1241000" />
+      <workItem from="1606969816616" duration="1058000" />
+      <workItem from="1607000649434" duration="168000" />
+      <workItem from="1607001101515" duration="5547000" />
+      <workItem from="1607015523862" duration="1283000" />
+      <workItem from="1607016974542" duration="3031000" />
+      <workItem from="1607025394596" duration="3173000" />
+      <workItem from="1607091421576" duration="28000" />
+      <workItem from="1607091773395" duration="9000" />
+      <workItem from="1607159280531" duration="501000" />
+      <workItem from="1607166284006" duration="1196000" />
+      <workItem from="1607171609259" duration="1519000" />
+      <workItem from="1607173340072" duration="12075000" />
+      <workItem from="1607191007675" duration="3484000" />
+      <workItem from="1607195525872" duration="913000" />
+      <workItem from="1607324556880" duration="945000" />
+      <workItem from="1607331085228" duration="610000" />
+      <workItem from="1607362954913" duration="4486000" />
+      <workItem from="1607413643941" duration="16985000" />
+      <workItem from="1607454243166" duration="1605000" />
+      <workItem from="1607493373625" duration="9421000" />
+      <workItem from="1607619176124" duration="4714000" />
+      <workItem from="1607626193604" duration="3263000" />
+      <workItem from="1607700322045" duration="186000" />
+      <workItem from="1607756416745" duration="2754000" />
+      <workItem from="1608145248613" duration="2057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/views_py$views.coverage" NAME="views Coverage Results" MODIFIED="1607450130857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/send" />
+    <SUITE FILE_PATH="coverage/sharing_files$views.coverage" NAME="views Coverage Results" MODIFIED="1607006289283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/send" />
+  </component>
+</project>
